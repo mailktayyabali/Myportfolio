@@ -6,7 +6,85 @@
 html,body{
     height:100%;
     width:100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    background-color: rgb(178, 213, 244);
+
+.Sidebar{
+    padding: 25px;
+    width: 23%;
+    height: 97%;
+    background-color: rgb(0, 100, 148);
+    color: white;
+    position: fixed;
+    border-radius: 20px;
+    margin: 10px;
+}
+.mainbox{
+    margin-left: 350px;
+    padding: 20px;
+    height: 100%;
+    background-color: rgb(240, 240, 240);
+}
+.sidetop{
+    height: 250px;
+    margin: 0 auto;
+    background-color: rgb(0, 100, 148);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-top: 20px ; */
+    font-size: 14px;
+    
+}
+.details{
+    margin-left: 10px;
+}
+.nav-bar{
+    width: 40%;
+    height: 40px;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 2%;
+    justify-content: right;
+    gap: 40px;
+    margin-top: 20px;
+    margin-left: 50%;
+}
+.nav-bar a:hover{
+    background-color: rgb(0, 100, 148);
+    /* transition: 0.3s; */
+    border-radius: 10px;
+    color: white;
+}
+.nav-bar ul{
+    list-style: none;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+.iconcontainer{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color:rgb(0, 100, 148);
+    font-size: 20px;
+    padding: 8px 16px;
 }
