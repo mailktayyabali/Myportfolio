@@ -40,9 +40,7 @@ html,body{
     width: 30px;
     height: 30px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
-    /* margin-top: 20px ; */
     font-size: 14px;
     
 }
@@ -84,7 +82,7 @@ html,body{
     flex-direction: row;
     margin: 20px;
 }
-a{
+.nav-bar a{
     text-decoration: none;
     color:rgb(0, 100, 148);
     font-size: 20px;
